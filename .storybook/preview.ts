@@ -1,5 +1,14 @@
-import type { Preview } from "@storybook/vue3";
+import { Preview , setup} from "@storybook/vue3";
 
+import '@unocss/reset/tailwind.css'
+import '~/styles/main.css'
+import 'uno.css'
+
+// https://github.com/antfu/vite-ssg
+
+setup( (app)=>{
+ 
+})
 const preview: Preview = {
   parameters: {
     backgrounds: {
